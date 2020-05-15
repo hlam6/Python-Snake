@@ -60,7 +60,7 @@ class SnakeGUI:
         self.restart = Button(self.win, text = "Restart?", command = self.restartGame)
         self.restart.pack()
         self.canvas.create_text(300,300,text='Score: ' + str(self.count), font = ('Times', 25))
-        self.canvas.create_text(300,250,text = 'Game over', font = ('Times',25))
+        self.canvas.create_text(300,250,text = 'Game over', font = ('Comic Sans MS',25))
     def spacebar(self,space):
         if self.gamestate == "Pause":
             self.startGame()
